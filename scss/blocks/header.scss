@@ -5,9 +5,9 @@
     display: flex;
     justify-content: space-around;
     padding: 6px 0;
-    background-color: $header-top-bg-colour;
+    background-color: $header-top-bg-color;
 
-    color: $header-top-text-colour;
+    color: $header-top-text-color;
     font-weight: 300;
     font-size: 12px;
     line-height: 17px;
@@ -26,7 +26,7 @@
   }
 
   &__nav {
-    background-color: $search-bg-colour;
+    background-color: $search-bg-color;
   }
 }
 
@@ -44,14 +44,14 @@
     font-weight: 450;
     font-size: 14px;
     line-height: 18px;
-    color: $header-top-text-colour;
+    color: $header-top-text-color;
   }
 }
 
 .search {
   width: 420px;
   border: none;
-  background-color: $search-bg-colour;
+  background-color: $search-bg-color;
   border-radius: 2px 0px 0px 2px;
   padding: 12px;
 
@@ -69,7 +69,7 @@
     font-weight: 450;
     font-size: 12px;
     line-height: 15px;
-    color: $header-top-text-colour;
+    color: $header-top-text-color;
   }
 
   &__filter {
@@ -134,7 +134,7 @@
   font-size: 10px;
   line-height: 165%;
   text-decoration: none;
-  color: $header-top-text-colour;
+  color: $header-top-text-color;
 
   &__img {
     padding-right: 6px;
