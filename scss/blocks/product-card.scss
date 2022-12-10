@@ -58,7 +58,7 @@
 
   &__button {
     border: none;
-    background: #fff;
+    background: $white-color;
     font-family: 'circular_stdbook';
   }
 }
@@ -110,7 +110,7 @@
     display: flex;
     align-items: flex-start;
     background-color: $extra-info-button-bg;
-    color: #FFF;
+    color: $white-color;
     border-radius: 3px;
     border: none;
     padding: 12px;
@@ -121,3 +121,178 @@
     }
   }
 }
+
+.main__info {
+  &__title {
+    font-family: johnston_itc_stdmedium;
+    color: $header-top-text-color;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+  }
+
+  &__color {
+    display: flex;
+    gap: 4px;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 165%;
+    color: black;
+  }
+
+  &__choose__color {
+    display: flex;
+    gap: 8px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    align-items: center;
+
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+
+    &__container {
+      height: 30px;
+      width: 30px;
+
+      &__active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 35px;
+        width: 35px;
+
+        &__text {
+          font-style: normal;
+          font-weight: 450;
+          font-size: 12px;
+          line-height: 165%;
+          color: $product-details-item-text;
+          padding-top: 4px;
+        }
+      }
+    }
+
+  }
+
+  &__art {
+    color: $product-info-art-text;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 9px 0;
+  }
+
+  &__price {
+    font-family: johnston_itc_stdmedium;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    padding-bottom: 34px;
+  }
+
+  &__grid__length {
+    padding-top: 20px;
+
+    &__button {
+      font-family: circular_stdbook;
+      color: $product-grid-length-button;
+      background: $white-color;
+      border: 1px solid $details-border;
+      border-radius: 3px;
+      padding: 11px 9px;
+
+      &__container {
+        display: flex;
+        gap: 9px;
+        padding-bottom: 34px;
+      }
+
+      &__configurator {
+        display: flex;
+        align-items: center;
+        padding: 11px 11px;
+        background-color: $extra-info-button-bg;
+        border: none;
+        border-radius: 3px;
+        font-family: circular_stdbook;
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 120%;
+        color: $white-color;
+
+        &__text {
+          padding-left: 6px;
+        }
+      }
+
+      &__active {
+        color: $white-color;
+        background-color: $product-grid-length-button;
+        padding: 11px 13px;
+      }
+    }
+
+    &__title {
+      font-weight: 450;
+      font-size: 12px;
+      line-height: 165%;
+      color: $product-details-item-text;
+      padding-bottom: 9px;
+    }
+  }
+}
+
+.add__to__card {
+  display: flex;
+  gap: 11px;
+
+  &__counter {
+    width: 100px;
+    height: 37px;
+    display: flex;
+    border: 1px solid $header-search-button;
+    border-radius: 3px;
+    justify-content: space-between;
+  
+    &__minus,
+    &__plus {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 33px;
+      background-color: $add-to-card-minus-bg;
+      color: $white-color;
+      font-size: 25px;
+    }
+
+    &__plus {
+      background-color: $header-search-button;
+    }
+  
+    &__quantity {
+      width: 33px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 120%;
+      color: $product-details-item-text;
+    }
+  }
+
+  &__button {
+    padding: 11px 84px;
+    background-color: $header-search-button;
+    border: none;
+    border-radius: 2px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: $white-color;
+  }
+}
+
