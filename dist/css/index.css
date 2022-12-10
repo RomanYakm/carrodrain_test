@@ -1,4 +1,131 @@
+.header__top {
+  display: flex;
+  justify-content: space-around;
+  padding: 6px 0;
+  background-color: #CFBEAE;
+  color: #353535;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+}
+.header__medium {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 127px;
+}
+.header__medium__search {
+  display: flex;
+  height: 40px;
+}
+
+.search {
+  width: 420px;
+  border: none;
+  background-color: #F9F7F4;
+  border-radius: 2px 0px 0px 2px;
+  padding: 12px;
+}
+.search__icon {
+  display: flex;
+  align-items: center;
+  background-color: #AD9681;
+  border-radius: 0px 2px 2px 0px;
+  padding: 13px;
+  border: none;
+}
+.search::placeholder {
+  font-family: circular_stdbook;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353535;
+}
+.search__filter {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  background-color: #F0ECE5;
+}
+.search__filter__item {
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  padding: 12px 0 12px 8.5px;
+}
+.search__filter__item__arrow {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 129px;
+}
+
+.header__user__icons {
+  display: flex;
+  align-items: center;
+}
+.header__user__icons__link:first-child {
+  padding-right: 20px;
+}
+
+.social__links {
+  display: flex;
+  gap: 8px;
+}
+
+.change__language {
+  padding-left: 21px;
+  font-size: 10px;
+  line-height: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.change__language::after {
+  display: inline-block;
+  position: absolute;
+  top: -2px;
+  content: ">";
+  padding-left: 5px;
+  rotate: 90deg;
+}
+
+.order__call {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  line-height: 165%;
+  text-decoration: none;
+  color: #353535;
+}
+.order__call__img {
+  padding-right: 6px;
+}
+
+.top__info {
+  display: flex;
+}
+.top__info:last-child {
+  padding-right: 0;
+}
+.top__info__item {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+.top__info__item__text {
+  padding-left: 4px;
+}
+.top__addition__info {
+  display: flex;
+  align-items: center;
+}
+
 .page__body {
+  width: 1440px;
+  margin: 0 auto;
   font-family: circular_stdbook;
 }
 
