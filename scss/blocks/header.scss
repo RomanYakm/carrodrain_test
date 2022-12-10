@@ -24,6 +24,28 @@
       height: 40px;
     }
   }
+
+  &__nav {
+    background-color: $search-bg-colour;
+  }
+}
+
+.main__nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+
+  &__item {
+    padding: 13px 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: $header-top-text-colour;
+  }
 }
 
 .search {
