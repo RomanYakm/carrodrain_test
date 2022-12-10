@@ -19,6 +19,10 @@
 }
 
 .product__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 68px;
+
   &__title {
     font-family: johnston_itc_stdmedium;
     font-weight: 500;
@@ -73,7 +77,20 @@
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 16px;
     padding: 20px 0;
+
+    &__item {
+      display: flex;
+      color: $product-details-item-text;
+      font-weight: 450;
+      font-size: 12px;
+      line-height: 165%;
+
+      &__img {
+        padding-right: 10px;
+      }
+    }
   }
 }
 
@@ -97,6 +114,7 @@
     border-radius: 3px;
     border: none;
     padding: 12px;
+    cursor: pointer;
 
     &__img {
       padding-left: 6.5px;

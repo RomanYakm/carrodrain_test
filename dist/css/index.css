@@ -160,6 +160,11 @@
   color: #808080;
 }
 
+.product__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 68px;
+}
 .product__card__title {
   font-family: johnston_itc_stdmedium;
   font-weight: 500;
@@ -208,7 +213,18 @@
 .details__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
   padding: 20px 0;
+}
+.details__list__item {
+  display: flex;
+  color: #6C7175;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 165%;
+}
+.details__list__item__img {
+  padding-right: 10px;
 }
 
 .extra__info {
@@ -230,6 +246,7 @@
   border-radius: 3px;
   border: none;
   padding: 12px;
+  cursor: pointer;
 }
 .extra__info__item__img {
   padding-left: 6.5px;
