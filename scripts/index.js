@@ -27,3 +27,20 @@ buttonNext.addEventListener('click', () => {
 })
 
 // Slider End
+
+// Dropdown start
+
+const dropdownList = document.querySelectorAll('.dropdown');
+
+dropdownList.forEach(dropdown => {
+  dropdown.addEventListener('click', () => {
+    const trigger = dropdown.querySelector('.dropdown__trigger');
+    const content = dropdown.querySelector('.dropdown__content');
+
+    trigger.classList.toggle('dropdown__trigger__active');
+    content.classList.toggle('dropdown__content__active');
+  })
+})
+
+
+// Dropdown end

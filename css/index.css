@@ -635,7 +635,53 @@
 }
 
 .questions__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  padding: 75px 160px;
   background: #F9F7F4;
+  color: #353535;
+}
+.questions__answers__title {
+  font-family: johnston_itc_stdmedium;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  padding-bottom: 28px;
+}
+
+.dropdown {
+  border-bottom: 1px solid #EAEAEA;
+  padding: 16px 0;
+}
+.dropdown__trigger {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  font-family: circular_stdmedium;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 165%;
+}
+.dropdown__trigger::after {
+  content: ">";
+  display: inline-block;
+  transform: rotate(90deg) scale(0.5, 1);
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+.dropdown__trigger__active::after {
+  transform: rotate(-90deg) scale(0.5, 1);
+}
+.dropdown__content {
+  display: none;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 165%;
+  color: #808080;
+}
+.dropdown__content__active {
+  display: flex;
 }
 
 .page__body {
