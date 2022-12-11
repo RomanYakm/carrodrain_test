@@ -45,6 +45,9 @@
   border-radius: 2px 0px 0px 2px;
   padding: 12px;
 }
+.search:focus {
+  outline: none;
+}
 .search__icon {
   display: flex;
   align-items: center;
@@ -252,6 +255,9 @@
   padding-left: 6.5px;
 }
 
+.main__info {
+  padding-bottom: 30px;
+}
 .main__info__title {
   font-family: johnston_itc_stdmedium;
   color: #353535;
@@ -399,6 +405,126 @@
   font-size: 12px;
   line-height: 15px;
   color: #FFF;
+}
+
+.why__us {
+  padding-bottom: 20px;
+}
+.why__us__item {
+  display: flex;
+  gap: 6px;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 165%;
+  color: #6C7175;
+  padding-bottom: 10px;
+}
+
+.description__title {
+  padding-bottom: 13px;
+}
+.description__text {
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 165%;
+  color: #808080;
+  padding-bottom: 50px;
+  margin-right: 180px;
+}
+.description__text__single {
+  padding-bottom: 32px;
+}
+
+.email__us {
+  display: flex;
+  border-bottom: 1px solid #ECE8DF;
+  padding-bottom: 32px;
+  margin-right: 180px;
+}
+.email__us__input {
+  width: 279px;
+  border-radius: 2px 0px 0px 2px;
+}
+.email__us__input::placeholder {
+  color: #808080;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+}
+.email__us__button {
+  font-family: circular_stdbook;
+  padding: 11px 9px;
+  background-color: #AD9681;
+  border: none;
+  border-radius: 0px 2px 2px 0px;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFF;
+}
+
+.contact__us {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid #ECE8DF;
+  margin-right: 180px;
+}
+.contact__us__info__title {
+  color: #353535;
+  padding-bottom: 8px;
+}
+.contact__us__info__quote {
+  font-family: johnston_itc_stdmedium;
+  padding-bottom: 18px;
+}
+.contact__us__info__quote__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #353535;
+  padding-bottom: 6px;
+}
+.contact__us__info__quote__author {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 120%;
+  color: #6C7175;
+}
+.contact__us__info__quote__author__pos {
+  font-weight: 500;
+}
+.contact__us__phone, .contact__us__email {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 10px;
+}
+.contact__us__link {
+  color: #6C7175;
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 165%;
+}
+
+.share {
+  display: flex;
+  padding-top: 18px;
+}
+.share__text {
+  padding-right: 15px;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 165%;
+  color: #6C7175;
+}
+.share__links {
+  display: flex;
+  gap: 8px;
+}
+
+.customer__reviews {
+  margin-top: 200px;
 }
 
 .page__body {
