@@ -123,6 +123,8 @@
 }
 
 .main__info {
+  padding-bottom: 30px;
+
   &__title {
     font-family: johnston_itc_stdmedium;
     color: $header-top-text-color;
@@ -296,3 +298,141 @@
   }
 }
 
+.why__us {
+  padding-bottom: 20px;
+
+  &__item {
+    display: flex;
+    gap: 6px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 165%;
+    color: $product-details-item-text;
+    padding-bottom: 10px;
+  }
+}
+
+.description {
+  
+  &__title {
+    padding-bottom: 13px;
+  }
+
+  &__text {
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 165%;
+    color: $description-p-text;
+    padding-bottom: 50px;
+    margin-right: 180px;
+
+    &__single {
+      padding-bottom: 32px;
+    }
+  }
+}
+
+.email__us {
+  display: flex;
+  border-bottom: 1px solid $details-border;
+  padding-bottom: 32px;
+  margin-right: 180px;
+
+  &__input {
+    width: 279px;
+    border-radius: 2px 0px 0px 2px;
+    
+    &::placeholder {
+      color: $description-p-text;
+      font-weight: 450;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  &__button {
+    font-family: circular_stdbook;
+    padding: 11px 9px;
+    background-color: $header-search-button;
+    border: none;
+    border-radius: 0px 2px 2px 0px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: $white-color;
+  }
+}
+
+.contact__us {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid $details-border;
+  margin-right: 180px;
+
+  &__info {
+
+    &__title {
+      color: $header-top-text-color;
+      padding-bottom: 8px;
+    }
+
+    &__quote {
+      font-family: johnston_itc_stdmedium;
+      padding-bottom: 18px;
+
+      &__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        color: $header-top-text-color;
+        padding-bottom: 6px;
+      }
+
+      &__author {
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 120%;
+        color: $product-details-item-text;
+
+        &__pos {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &__phone,
+  &__email {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 10px;
+  }
+
+  &__link {
+    color: $product-details-item-text;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 165%;
+  }
+}
+
+.share {
+  display: flex;
+  padding-top: 18px;
+
+  &__text {
+    padding-right: 15px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 165%;
+    color: $product-details-item-text;
+  }
+
+  &__links {
+    display: flex;
+    gap: 8px;
+  }
+}

@@ -54,6 +54,10 @@
   background-color: $search-bg-color;
   border-radius: 2px 0px 0px 2px;
   padding: 12px;
+  
+  &:focus {
+    outline: none;
+  }
 
   &__icon {
     display: flex;
