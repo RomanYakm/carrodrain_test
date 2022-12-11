@@ -662,6 +662,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 165%;
+  padding-bottom: 6px;
 }
 .dropdown__trigger::after {
   content: ">";
