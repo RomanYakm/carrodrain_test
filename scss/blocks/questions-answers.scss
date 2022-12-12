@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 120px;
-  padding: 75px 160px;
+  padding: 75px 127px 75px 160px;
+  margin-bottom: 60px;
   background: $search-bg-color;
   color: $header-top-text-color;
 
@@ -27,6 +28,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 165%;
+    padding-bottom: 6px;
 
 
     &::after {

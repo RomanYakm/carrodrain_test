@@ -1,17 +1,15 @@
 .customer__reviews {
-  width: 80%;
   border: 1px solid $details-border;
   border-radius: 4px;
-  margin: 200px 126px 64px 126px;
+  margin: 200px 127px 64px 127px;
 }
 
 .main__review {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 45px 0;
+  padding: 45px 50px;
   border-bottom: 1px solid #ECE8DF;
-  margin: 0 50px;
   
   &__title {
     font-family: johnston_itc_stdmedium;

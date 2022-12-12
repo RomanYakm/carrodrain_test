@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header__top {
   display: flex;
   justify-content: space-around;
@@ -525,19 +526,17 @@
 }
 
 .customer__reviews {
-  width: 80%;
   border: 1px solid #ECE8DF;
   border-radius: 4px;
-  margin: 200px 126px 64px 126px;
+  margin: 200px 127px 64px 127px;
 }
 
 .main__review {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 45px 0;
+  padding: 45px 50px;
   border-bottom: 1px solid #ECE8DF;
-  margin: 0 50px;
 }
 .main__review__title {
   font-family: johnston_itc_stdmedium;
@@ -601,8 +600,8 @@
   align-items: center;
   background-image: url("../img/blogs-bg.png");
   background-repeat: no-repeat;
-  margin-left: 126px;
-  margin-right: 160px;
+  margin-left: 127px;
+  margin-right: 127px;
   padding-bottom: 64px;
   color: #FFF;
 }
@@ -638,7 +637,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 120px;
-  padding: 75px 160px;
+  padding: 75px 127px 75px 160px;
+  margin-bottom: 60px;
   background: #F9F7F4;
   color: #353535;
 }
@@ -683,6 +683,160 @@
 }
 .dropdown__content__active {
   display: flex;
+}
+
+.favorite__products {
+  padding: 0 127px 60px 127px;
+}
+.favorite__products__top, .pick__color__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 11px;
+}
+.favorite__products__title, .pick__color__title {
+  font-family: johnston_itc_stdmedium;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  color: #353535;
+}
+.favorite__products__link, .pick__color__link {
+  font-family: johnston_itc_stdmedium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #AD9681;
+}
+.favorite__products__list {
+  display: flex;
+  gap: 18px;
+}
+.favorite__products__item {
+  width: 223px;
+}
+.favorite__products__item__img__container {
+  position: relative;
+}
+.favorite__products__item__img__container__expiring {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  background-color: #000;
+  color: #FFF;
+  font-weight: 450;
+  font-size: 9px;
+  line-height: 11px;
+  padding: 4px 8px;
+}
+.favorite__products__item__img__container__expiring__sale {
+  background-color: #B04121;
+}
+.favorite__products__item__img__container__expiring__none {
+  display: none;
+}
+.favorite__products__item__color {
+  display: flex;
+  gap: 8px;
+  padding: 9px 20px;
+  justify-content: center;
+}
+.favorite__products__item__rating {
+  display: flex;
+  padding: 13px 0 0 14px;
+}
+.favorite__products__item__rating__text {
+  font-weight: 450;
+  font-size: 9px;
+  line-height: 120%;
+  padding-left: 7px;
+  padding-top: 2px;
+  color: #808080;
+}
+.favorite__products__item__rating__stars {
+  display: flex;
+  gap: 2px;
+}
+.favorite__products__item__main__info {
+  display: flex;
+  padding: 7px 15px;
+  justify-content: space-between;
+  font-family: johnston_itc_stdmedium;
+  color: #353535;
+}
+.favorite__products__item__main__info__name, .favorite__products__item__main__info__price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+}
+.favorite__products__item__description {
+  font-weight: 450;
+  font-size: 10px;
+  line-height: 128%;
+  color: #9A9A9A;
+  padding: 0 15px 8px 15px;
+}
+.favorite__products__item__options {
+  font-weight: 450;
+  font-size: 10px;
+  line-height: 128%;
+  padding: 0 15px;
+  color: #9A9A9A;
+}
+.favorite__products__item__options__bullets::before {
+  padding-left: 15px;
+  padding-right: 6px;
+  content: "•";
+  color: #CFBEAE;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.favorite__products__item__buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 15px 12px 15px;
+}
+.favorite__products__item__buttons__options {
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFF;
+  border-radius: 2px;
+  border: none;
+  background-color: #AD9681;
+  padding: 9px 31px;
+}
+.favorite__products__item__buttons__add__to__cart {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: #3C4043;
+}
+
+.pick__color {
+  padding: 85px 127px;
+  background-color: #F9F7F4;
+}
+.pick__color__top {
+  padding-bottom: 22px;
+}
+.pick__color__list {
+  display: flex;
+  gap: 34px;
+}
+.pick__color__list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.pick__color__list__item__text {
+  font-family: johnston_itc_stdlight;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
 }
 
 .page__body {
