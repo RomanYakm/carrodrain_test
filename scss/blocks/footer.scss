@@ -1,0 +1,82 @@
+.footer {
+  padding: 0 127px;
+  background-color: $header-top-text-color;
+
+  &__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 54px 0;
+  }
+
+  &__social {
+    display: flex;
+    gap: 9px;
+    justify-self: flex-end;
+  }
+
+  &__form {
+
+    &__text {
+      padding-bottom: 14px;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 165%;
+      color: $white-color;
+    }
+
+    &__input {
+      @extend .search;
+      @extend .email__us__input;
+      width: 254px;
+      padding: 9px 0 9px 13px;
+
+      &__container {
+        display: flex;
+      }
+    }
+
+    &__signup {
+      @extend .email__us__button;
+    }
+  }
+
+  &__info {
+    display: flex;
+    gap: 120px;
+
+    &__logo {
+      padding-right: 30px;
+    }
+
+    &__links__set {
+      display: flex;
+      flex-direction: column;
+      
+      &__link {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 165%;
+        color: $white-color;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+  &__payments {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-top: 46px;
+    padding-bottom: 88px;
+
+    &__button {
+      width: 34px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

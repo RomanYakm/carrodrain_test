@@ -5,7 +5,12 @@
 @import './blocks/questions-answers.scss';
 @import './blocks/favorite-products.scss';
 @import './blocks/pick-color.scss';
+@import './blocks/footer.scss';
 @import './variables.scss';
+
+.html {
+  scroll-behavior: smooth;
+}
 
 .page__body {
   width: 1440px;

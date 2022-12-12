@@ -39,14 +39,14 @@
   color: #353535;
 }
 
-.search {
+.search, .footer__form__input {
   width: 420px;
   border: none;
   background-color: #F9F7F4;
   border-radius: 2px 0px 0px 2px;
   padding: 12px;
 }
-.search:focus {
+.search:focus, .footer__form__input:focus {
   outline: none;
 }
 .search__icon {
@@ -57,7 +57,7 @@
   padding: 13px;
   border: none;
 }
-.search::placeholder {
+.search::placeholder, .footer__form__input::placeholder {
   font-family: circular_stdbook;
   font-weight: 450;
   font-size: 12px;
@@ -443,17 +443,17 @@
   padding-bottom: 32px;
   margin-right: 180px;
 }
-.email__us__input {
+.email__us__input, .footer__form__input {
   width: 279px;
   border-radius: 2px 0px 0px 2px;
 }
-.email__us__input::placeholder {
+.email__us__input::placeholder, .footer__form__input::placeholder {
   color: #808080;
   font-weight: 450;
   font-size: 12px;
   line-height: 15px;
 }
-.email__us__button {
+.email__us__button, .footer__form__signup {
   font-family: circular_stdbook;
   padding: 11px 9px;
   background-color: #AD9681;
@@ -837,6 +837,72 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
+}
+
+.footer {
+  padding: 0 127px;
+  background-color: #353535;
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 54px 0;
+}
+.footer__social {
+  display: flex;
+  gap: 9px;
+  justify-self: flex-end;
+}
+.footer__form__text {
+  padding-bottom: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 165%;
+  color: #FFF;
+}
+.footer__form__input {
+  width: 254px;
+  padding: 9px 0 9px 13px;
+}
+.footer__form__input__container {
+  display: flex;
+}
+.footer__info {
+  display: flex;
+  gap: 120px;
+}
+.footer__info__logo {
+  padding-right: 30px;
+}
+.footer__info__links__set {
+  display: flex;
+  flex-direction: column;
+}
+.footer__info__links__set__link {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 165%;
+  color: #FFF;
+  text-decoration: none;
+}
+.footer__payments {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 46px;
+  padding-bottom: 88px;
+}
+.footer__payments__button {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.html {
+  scroll-behavior: smooth;
 }
 
 .page__body {
