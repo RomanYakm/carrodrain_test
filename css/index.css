@@ -598,7 +598,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/img/blogs-bg.png");
+  background-image: url("../img/Blogs-bg.png");
   background-repeat: no-repeat;
   margin-left: 127px;
   margin-right: 127px;
